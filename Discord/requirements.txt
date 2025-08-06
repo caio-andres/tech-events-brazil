@@ -1,0 +1,7 @@
+discord.py
+aiohttp
+python-dotenv
+python-dateutil
+pytz
+json5
+dotenv
