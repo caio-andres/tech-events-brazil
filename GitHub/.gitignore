@@ -1,5 +1,6 @@
-# Environment
+# Environments
 .env
+.venv
 
-# Dependencies
-node_modules
+# Cache
+__pycache__

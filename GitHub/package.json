@@ -1,6 +1,0 @@
-{
-	"dependencies": {
-		"octokit": "^5.0.3",
-		"pnpm": "^10.14.0"
-	}
-}
