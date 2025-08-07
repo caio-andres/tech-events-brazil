@@ -5,4 +5,4 @@ load_dotenv()
 
 TOKEN = os.getenv("DISCORD_TOKEN")
 DISCORD_URL = os.getenv("DISCORD_URL")
-JSON_DB_URL = os.getenv("JSON_DB_URL")
+DB_JSON_URL = os.getenv("DB_JSON_URL")
