@@ -17,7 +17,7 @@ import java.util.stream.Collectors;
 @Service
 public class EventService {
 
-    @Value("${url_database}")
+    @Value("${url.database}")
     private String urlDatabase;
 
     private Schedule schedule;
