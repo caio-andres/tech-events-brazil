@@ -43,7 +43,7 @@ public class EventService {
             List<MonthEvent> months = year.getMonths().stream()
                     .filter(m -> !m.isArchived())
                     .filter(m -> isBetween(m.getMonth(), start, end))
-                    .collect(Collectors.toList());
+                    .toList();
 
             result.addAll(months);
         }
